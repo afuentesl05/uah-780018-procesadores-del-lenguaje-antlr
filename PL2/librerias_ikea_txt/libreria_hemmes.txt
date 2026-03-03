@@ -1,0 +1,63 @@
+mueble "Hemnes";
+
+pieza "balda_grande_lateral" cantidad 2;
+pieza "separador"            cantidad 1;
+pieza "enganche_extremo"     cantidad 4;
+pieza "barra_lateral_larga"  cantidad 4;
+pieza "panel_medio"	     cantidad 5;
+pieza "panel_fondo_pequeño"  cantidad 2;
+pieza "panel_base"	     cantidad 1;
+pieza "panel_tapa"	     cantidad 1;
+
+usar herramienta "destronillador punta plana";
+usar herramienta "destronillador estrella";
+usar herramienta "lapiz";
+usar herramienta "nivelador";
+
+herraje "104171" cantidad 12;
+herraje "101350" cantidad 16;
+herraje "118331" cantidad 12;
+herraje "113434" cantidad 12;
+herraje "102728" cantidad 4;
+herraje "100211" cantidad 13;
+herraje "122723" cantidad 9;
+herraje "106414" cantidad 8;
+herraje "119256" cantidad 2;
+herraje "100823" cantidad 4;
+herraje "109560" cantidad 11;
+
+paso 1:  atornillar 118331 cantidad 4 en balda_grande_lateral usando destronillador repetir 2;
+paso 2:  unir 101350 cantidad 3 con separador repetir 2;
+paso 3:  atornillar 100211 en balda_grande_lateral usando 100001 repetir 2;
+paso 4:  atornillar enganche_extremo en balda_grande_lateral usando 100211 cantidad 2 y 100001 repetir 4; 
+paso 5:  unir enganche_extremo usando 102728 cantidad 4;
+paso 6:  atornillar barra_lateral_largo a balda_grande_lateral usando 101350;
+paso 7:  repetir paso 6;
+paso 8:  repetir paso 6 2;
+paso 9:  atornillar 113434 cantidad 1 a barra_lateral_largo repetir 4;
+paso 10: atornillar 118331 cantidad 2 a separador repetir 1;
+paso 11: atornillar panel_medio a separador usando 122332 cantidad 2;
+paso 12: fijar barra_lateral_largo a balda_grande_lateral usando 101350 repetir 4;
+paso 13: atornillar 113434 cantidad 2 a barra_lateral_largo repetir 2;
+paso 14: fijar panel_tapa a mueble usando 101350 cantidad 2;
+paso 15: atornillar panel_medio a mueble usando 100211 cantidad 7 y 100001;
+paso 16: colocar panel_fondo_pequeño a mueble;
+paso 17: repetir paso 16;
+paso 18: repetir paso 16;
+paso 19: repetir paso 16;
+paso 20: atornillar panel_fondo_pequeño a mueble usando 109560 cantidad 3 y 122723 cantidad 3;
+paso 21: repetir paso 20 2;
+paso 22: nivelar mueble usando nivelador;
+paso 23: atornillar mueble a pared usando 109560 cantidad 2, 100823 cantidad 4, tornillo cantidad 2 y 119256 cantidad 2;
+paso 24: insertar 104171 cantidad 4 en barra_lateral_larga;
+paso 25: colocar panel_base en mueble;
+paso 26: insertar 104171 cantidad 8 en barra_lateral_larga_trasera y colocar 106414 cantidad 8 en barra_lateral_larga_delantera;
+paso 27: colocar panel_medio en mueble repetir 4;  
+
+fin;
+
+
+
+
+
+

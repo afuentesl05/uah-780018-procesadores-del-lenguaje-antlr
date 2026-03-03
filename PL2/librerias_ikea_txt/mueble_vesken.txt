@@ -1,0 +1,43 @@
+mueble "VESKEN";   
+
+usar herramienta "martillo";
+usar herramienta "lapiz";
+usar herramienta "martillo";
+
+pieza "bandeja"        		     cantidad 4;
+pieza "barra_lateral"                cantidad 12;
+pieza "barra_suelo"      	     cantidad 4;
+pieza "enganche_bandeja"	     cantidad 4;	
+pieza "enganche_pared"	             cantidad 2;	
+		
+
+herraje "tornillo" cantidad 2;
+
+
+paso 1:  unir barra_suelo a bandeja repetir 4; 
+ 
+paso 2:  unir barra_lateral a bandeja repetir 4; 
+
+paso 3:  unir bandeja a barra_lateral repetir 4; 
+
+paso 4:  unir barra_lateral a bandeja repetir 4; 
+
+paso 5:  unir bandeja a barra_lateral repetir 4;
+
+paso 6:  unir barra_lateral a bandeja repetir 4; 
+
+paso 7: unir bandeja a barra_lateral repetir 4;
+
+paso 8: unir enganche_bandeja a bandeja repetir 4;
+
+paso 9: marcar bandeja usando lapiz; 
+
+paso 10: marcar enganche_pared en pared usando lapiz repetir 2;
+
+paso 11: atornillar enganche_pared en pared usando tornillo repetir 2;
+
+paso 12: colocar mueble en enganche_pared; 
+
+
+fin;
+

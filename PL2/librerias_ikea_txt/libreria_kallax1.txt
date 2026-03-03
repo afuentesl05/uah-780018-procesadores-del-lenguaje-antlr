@@ -1,0 +1,51 @@
+mueble "Kallax";
+
+usar herramienta "destronillador punta plana";
+usar herramienta "destronillador estrella";
+usar herramienta "lapiz";
+usar herramienta "martillo";
+usar herramienta "nivel";
+
+pieza "panel_centro_horizontal"        cantidad 6;
+pieza "panel_centro_vertical"          cantidad 4;
+pieza "balda_grande"      	       cantidad 2;
+pieza "balda_mediana"                  cantidad 2;
+
+
+herraje "104321" cantidad 8;
+herraje "101339" cantidad 22;
+herraje "115753" cantidad 2;
+herraje "115754" cantidad 2;
+herraje "103603" cantidad 2;
+herraje "100372" cantidad 4;
+herraje "100092" cantidad 1;
+herraje "121030" cantidad 1;
+herraje "10002300" cantidad 2;
+
+
+paso 1:  atornillar balda_mediana en balda_grande usando 104321 cantidad 2, 121030 y 100092;
+paso 2:  martillar panel_centro_vertical a balda_mediana usando 101339 cantidad 2;
+paso 3:  martillar panel_centro_horizontal a balda_grande usando 101339 cantidad 2;
+paso 4:  martillar panel_centro_horizontal a panel_centro_vertical usando 101339 cantidad 2;
+paso 5:  fijar panel_centro_vertical a panel_centro_horizontal;
+paso 6:  repetir paso 3;
+paso 7:  repetir paso 4;
+paso 8:  repetir paso 5;
+paso 9:  repetir paso 3;
+paso 10: repetir paso 4;
+paso 11: repetir paso 5;
+paso 12: martillar 101339 cantidad 8 en medioMontado;
+paso 13: unir balda_grande a medioMontado;
+paso 14: colocar balda_mediana a medioMontado y atornillar balda_mediana a balda_grande usando 104321 cantidad 6, 100092 y 121030;
+paso 15: pegar 121030 cantidad 4 en balda_mediana;
+paso 16: atornillar 115753 a mueble usando 100372 cantidad 2 repetir 2;
+paso 17: marcar 115753 cantidad 2 en pared usando lapiz;
+paso 18: atornillar tornillo cantidad 2 en pared; 
+paso 19: colocar mueble en pared usando 103693 cantidad 2;
+
+fin;
+
+
+
+
+

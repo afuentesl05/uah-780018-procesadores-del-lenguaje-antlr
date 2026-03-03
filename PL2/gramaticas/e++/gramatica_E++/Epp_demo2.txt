@@ -1,0 +1,28 @@
+# --- Inicializaciones ---
+asignar x = 3 ;P
+asignar y = 4.5 ;P
+asignar ok = falso ;P
+asignar z = 0 ;P
+
+# --- Unario y lógicos ---
+ok = !ok ;P         # ahora true
+z = -x ;P           # unario negativo
+
+# --- Aritmética + compuestas ---
+x += 2 * 5 ;P       # usa * y +=
+y -= 1.5 ;P         # usa -=
+
+# --- If con OR, AND, relacionales y 'sino si' ---
+(ok && x > 10) || (y >= 5) ???
+si ->
+  mostrar "rama then" ;P
+sino si x == 13 ???
+->  mostrar "elseif x == 13" ;P
+sino ->
+  mostrar "rama else" ;P
+terminar
+
+# --- Salidas ---
+mostrar x ;P
+mostrar y ;P
+mostrar z ;P

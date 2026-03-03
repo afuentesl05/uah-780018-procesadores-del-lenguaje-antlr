@@ -1,0 +1,34 @@
+mueble "BAGGEBO";
+
+usar herramienta "destornillador";
+
+pieza "panel_medio"        cantidad 4;
+pieza "barra_largo"        cantidad 4;
+pieza "panel_trasero"      cantidad 1;
+
+
+herraje "10119123" cantidad 38;
+herraje "10003068" cantidad 4;
+herraje "100827" cantidad 2;
+herraje "10062215" cantidad 2;
+herraje "tornillo" cantidad 2;
+
+
+paso 1: atornillar panel_medio a barra_largo usando 10119123 cantidad 2 repetir 2; 
+ 
+paso 2: repetir paso 1 3;  
+
+paso 3: atornillar barra_largo a panel_medio usando 10119123 cantidad 8 repetir 1;
+
+paso 4: atornillar panel_trasero a panel_medio usando 10119123 cantidad 4;
+
+paso 5: atornillar 10003068 a barra_largo usando 10003068 cantidad 4;
+
+paso 6: atornillar 10062215 a panel_medio usando 100827 cantidad 1 y 10119123 cantidad 1 repetir 1;
+
+paso 7: atornillar mueble en pared usando tornillo cantidad 2;
+
+
+fin;
+
+

@@ -1,0 +1,18 @@
+mueble "LACK";
+
+pieza "balda_pequeña"       cantidad 4;
+pieza "balda_grande"        cantidad 4;
+
+
+herraje "104323" cantidad 14;
+herraje "109053" cantidad 9;
+herraje "100001" cantidad 1;
+herraje "120944" cantidad 3;
+
+paso 1: atornillar balda_pequeña en balda_grande usando "104323" cantidad 2, 100001 repetir 6;
+paso 2: atornillar 120944 en balda_grande usando 104323 cantidad 2;
+paso 3: marcar 120944 en pared usando lapiz;
+paso 4: atornillar "LACK" a pared usando "109053" cantidad 2;
+
+fin;
+

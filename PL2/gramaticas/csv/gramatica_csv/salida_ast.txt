@@ -1,0 +1,21 @@
+CSV
+  Fila
+    Palabra: Nombre
+    Palabra: Frase
+    Palabra: Tipo
+    Palabra: Lanzamiento
+  Fila
+    Palabra: Aatrox
+    Texto: the Darkin Blade
+    Palabra: Juggernaut
+    Fecha: 2013-06-13
+  Fila
+    Palabra: Ahri
+    Texto: the Nine-Tailed Fox
+    Palabra: Burst
+    Fecha: 2011-12-14
+  Fila
+    Palabra: Akali
+    Texto: the Rogue Assassin
+    Palabra: Assassin
+    Fecha: 2010-05-11

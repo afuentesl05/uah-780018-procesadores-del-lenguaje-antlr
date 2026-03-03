@@ -1,0 +1,51 @@
+Program
+  AssignInit id=x
+    Int 3
+  AssignInit id=y
+    Float 4.5
+  AssignInit id=ok
+    Bool falso
+  AssignInit id=z
+    Int 0
+  Assign id=ok op==
+    Unary op=!
+      Id ok
+  Assign id=z op==
+    Unary op=u-
+      Id x
+  Assign id=x op=+=
+    MulDiv
+      Int 2
+      Int 5
+  Assign id=y op=-=
+    Float 1.5
+  If
+    Cond
+      Or
+        And
+          Id ok
+          Rel op=>
+            Id x
+            Int 10
+        Rel op=>=
+          Id y
+          Int 5
+    Then
+      Print
+        String "rama then"
+    Cond
+      Eq op===
+        Id x
+        Int 13
+    ElseIf#1
+      Print
+        String "elseif x == 13"
+    Else
+      Print
+        String "rama else"
+  Print
+    Id x
+  Print
+    Id y
+  Print
+    Id z

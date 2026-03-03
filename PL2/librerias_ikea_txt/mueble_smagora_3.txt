@@ -1,0 +1,63 @@
+mueble "SMAGORA";   
+
+pieza "panel_lateral"        cantidad 2;
+pieza "panel_fondo"          cantidad 1;
+pieza "panel_medio"          cantidad 4;
+pieza "balda"		     cantidad 2;
+	
+		
+usar herramienta "martillo";
+usar herramienta "lapiz";
+usar herramienta "destornillador";
+
+herraje "101345" cantidad 18;
+herraje "103693" cantidad 2;
+herraje "107716" cantidad 4;
+herraje "118331" cantidad 18;
+herraje "119252" cantidad 18;
+herraje "122628" cantidad 4;
+herraje "115753" cantidad 4;
+herraje "115754" cantidad 2;
+herraje "110646" cantidad 2;
+
+
+paso 1:  atornillar 118331 cantidad 8 en panel_fondo repetir 2;
+
+paso 2:  atornillar 101345 cantidad 4 en panel_fondo repetir 2;
+
+paso 3: repetir paso 2;
+
+paso 4: atornillar 119252 cantidad 2 en panel_medio repetir 4;
+
+paso 5: colocar panel_fondo en muebleSemi;
+
+paso 6: colocar panel_lateral en muebleSemi;
+
+paso 7: atornillar 119252 cantidad 2 en panel_medio repetir 4;
+
+paso 8: martillar 122628 cantidad 4 en mueble;
+
+paso 9: atornillar 118331 cantidad 2 en muebleNuevo;
+
+paso 10: colocar 101345 cantidad 2 en balda;
+
+paso 11: fijar balda en muebleNuevo;
+
+paso 12: atornillar balda en muebleNuevo usando 119252 cantidad 2;
+
+paso 13: atornillar 115753 cantidad 2 en panel_fondo usando 107716 cantidad 4;
+
+paso 14: colocar smagora en muebleNuevo;
+
+paso 15: marcar 115753 en panel_fondo usando lapiz; 
+
+paso 16: deshacer paso 14;
+
+paso 17: atornillar 110646 cantidad 2 en balda usando tornillo;
+
+paso 18: colocar smagora en muebleNuevo;
+
+paso 19: atornillar 103693 cantidad 2 en 115753; 
+
+fin;
+

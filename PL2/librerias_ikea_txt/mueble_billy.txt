@@ -1,0 +1,34 @@
+
+
+mueble "BILLY";
+
+
+paso 1: insertar 101351 cantidad 16 en balda;   
+
+paso 2: atornillar 118331 cantidad 12 en balda_lateral;    
+                   
+paso 3: fijar balda a balda_lateral;
+
+paso 4: atornillar 119081 cantidad 4 a balda;
+
+paso 5: atornillar 119081 cantidad 2 a balda ;
+
+paso 6: fijar balda_lateral a balda;
+
+paso 7: atornillar balda_lateral a balda usando 119081 cantidad 6; 
+
+paso 8: marcar balda usando lapiz;
+
+paso 9: colocar fondo en mueble;
+
+paso 10: marcar fondo;
+
+paso 11: atornillar fondo a mueble usando 101201 cantidad 1;
+
+paso 12: fijar mueble usando 100823 cantidad 2, 106989 cantidad 2, 109041 cantidad 2, 100823 cantidad 2 y 106989;
+
+paso 13: colocar 131372 cantidad 16 en balda_lateral;
+
+paso 14: colocar balda en mueble;
+
+fin;

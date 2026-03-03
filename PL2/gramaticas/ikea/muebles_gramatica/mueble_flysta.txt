@@ -1,0 +1,64 @@
+mueble "FLYSTA";
+
+usar herramienta "martillo";   
+
+pieza "panel_centro_horizontal"        cantidad 6;
+pieza "panel_centro_vertical"          cantidad 4;
+pieza "panel_lateral"      	       cantidad 2;
+
+herraje "115753" cantidad 2;
+herraje "115754" cantidad 2;
+herraje "104321" cantidad 8;
+herraje "101339" cantidad 6;
+herraje "103693" cantidad 2;
+herraje "100372" cantidad 4;
+herraje "100092" cantidad 1;
+herraje "121030" cantidad 1;
+herraje "153550" cantidad 2;
+herraje "101345" cantidad 16;
+
+
+
+paso 1:  atornillar panel_centro_horizontal a panel_lateral usando 100092 cantidad 1, 121030 cantidad 1 y 104321 cantidad 2; 
+ 
+paso 2:  martillar panel_centro_vertical a panel_centro_horizontal usando 101345 cantidad 2;  
+
+paso 3:  martillar panel_centro_horizontal a panel_lateral usando 101345 cantidad 2;
+
+paso 4:  martillar 101339 cantidad 2 en panel_centro_horizontal;
+
+paso 5:  unir panel_centro_vertical a panel_centro_horizontal;
+
+paso 6:  martillar panel_centro_horizontal a panel_lateral usando 101345 cantidad 2;
+
+paso 7:  martillar 101339 cantidad 2 en panel_centro_horizontal;
+
+paso 8:  unir panel_centro_vertical a panel_centro_horizontal;
+
+paso 9:  martillar panel_centro_horizontal a panel_lateral usando 101345 cantidad 2;
+
+paso 10: martillar 101339 cantidad 2 en panel_centro_horizontal;
+
+paso 11: unir panel_centro_vertical a panel_centro_horizontal;
+
+paso 12: martillar 101345 cantidad 8 en medioMontado;
+
+paso 13: unir panel_lateral a medioMontado;
+
+paso 14: atornillar panel_centro_horizontal a panel_lateral usando 100092 cantidad 1, 121030 cantidad 1 y 104321 cantidad 6;
+
+paso 15: pegar 153550 a mueble;
+
+paso 16: atornillar 115753 a mueble usando 100372 cantidad 2 repetir 1;
+
+paso 17: marcar 115753 en pared usando lapiz;
+
+paso 18: atornillar 115753 a pared usando tornillo repetir 1;
+
+paso 19: atornillar 103693 a 115753 usando destornillador repetir 1; 
+
+paso 20: colocar 115754 en 115753;
+
+
+fin;
+

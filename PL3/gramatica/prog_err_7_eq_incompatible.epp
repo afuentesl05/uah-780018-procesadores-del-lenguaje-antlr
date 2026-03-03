@@ -1,0 +1,7 @@
+# Programa E7: comparación '==' entre tipos incompatibles
+asignar x = 5;P
+
+x == verdadero ??? 
+si ->
+    mostrar "no debería compilar";P
+terminar

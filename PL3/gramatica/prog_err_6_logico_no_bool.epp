@@ -1,0 +1,8 @@
+# Programa E6: operador lógico '&&' con operandos no booleanos
+asignar a = 1;P
+asignar b = 2;P
+
+a && b ??? 
+si ->
+    mostrar "no debería compilar";P
+terminar

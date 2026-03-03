@@ -1,0 +1,7 @@
+# Programa E8: comparación numérica con tipo no numérico
+asignar texto = "hola";P
+
+texto < 3 ??? 
+si ->
+    mostrar "no debería compilar";P
+terminar

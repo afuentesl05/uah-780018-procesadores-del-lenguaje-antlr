@@ -1,0 +1,3 @@
+# Programa E3: incompatibilidad de tipos en asignación
+asignar flag = verdadero;P
+flag = 1;P

@@ -1,0 +1,7 @@
+# Programa 4: bucle mientras con contador
+asignar i = 0;P
+
+mientras i < 3 ??? ->
+    mostrar i;P
+    i += 1;P
+terminar

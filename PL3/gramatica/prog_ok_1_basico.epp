@@ -1,0 +1,9 @@
+# Programa 1: asignaciones básicas y re-asignación con +=, -=
+asignar x = 5;P
+asignar y = 3;P
+
+x += y;P
+x -= 1;P
+
+mostrar x;P
+mostrar y;P

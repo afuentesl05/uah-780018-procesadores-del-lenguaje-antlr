@@ -1,0 +1,9 @@
+# Programa 6: combinación de para, if y operadores lógicos
+para asignar i = 0;P i < 5 ??? i += 1;P ->
+    (i < 2) || (i > 3) ??? 
+    si ->
+        mostrar "i fuera del rango [2,3]";P
+    sino ->
+        mostrar "i dentro del rango [2,3]";P
+    terminar
+terminar

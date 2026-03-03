@@ -1,0 +1,3 @@
+# Programa E4: operador compuesto sobre tipo no numérico
+asignar texto = "hola";P
+texto += " mundo";P

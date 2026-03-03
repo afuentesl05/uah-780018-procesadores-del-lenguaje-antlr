@@ -1,0 +1,12 @@
+# Programa 3: booleanos, comparaciones y if / sino si / sino
+asignar x = 7;P
+asignar y = 10;P
+
+x < y ??? 
+si ->
+    mostrar "x es menor que y";P
+sino si x == y ??? ->
+    mostrar "x es igual que y";P
+sino ->
+    mostrar "x es mayor que y";P
+terminar

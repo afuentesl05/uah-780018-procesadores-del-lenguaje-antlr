@@ -1,0 +1,9 @@
+# Programa 2: operaciones aritméticas con enteros y flotantes
+asignar a = 5;P
+asignar b = 2.5;P
+
+asignar c = a + b;P
+asignar d = a * 2;P
+
+mostrar c;P
+mostrar d;P

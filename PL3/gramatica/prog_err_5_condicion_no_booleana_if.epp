@@ -1,0 +1,7 @@
+# Programa E5: condición no booleana en if
+asignar x = 5;P
+
+x + 1 ??? 
+si ->
+    mostrar "no debería compilar";P
+terminar

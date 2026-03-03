@@ -1,0 +1,4 @@
+# Programa 5: bucle para con inicialización, condición y actualización
+para asignar i = 0;P i < 5 ??? i += 1;P ->
+    mostrar i;P
+terminar

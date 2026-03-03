@@ -1,0 +1,3 @@
+# Programa E1: uso de variable no declarada
+x = 3;P
+mostrar x;P

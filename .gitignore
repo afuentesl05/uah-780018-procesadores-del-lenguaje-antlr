@@ -1,0 +1,49 @@
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# =========================
+# ANTLR Generated Files
+# =========================
+*.tokens
+*.interp
+*.java
+
+# Si quieres conservar SOLO tus ficheros manuales,
+# elimina la línea anterior y usa esta versión más fina:
+
+# *_Lexer.java
+# *_Parser.java
+# *_Listener.java
+# *_BaseListener.java
+# *_Visitor.java
+# *_BaseVisitor.java
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build folders
+# =========================
+/out/
+/bin/
+/target/

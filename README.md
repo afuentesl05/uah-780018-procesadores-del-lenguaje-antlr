@@ -1,6 +1,6 @@
 # Procesadores del Lenguaje (780018) — ANTLR
 
-Repositorio dedicado exclusivamente a las prácticas de la asignatura **Procesadores del Lenguaje (780018)** de la Universidad de Alcalá.
+Repositorio dedicado exclusivamente a las prácticas de la asignatura **Procesadores del Lenguaje (780018)** de la Universidad de Alcalá. dd
 
 El objetivo principal es el diseño e implementación de:
 
